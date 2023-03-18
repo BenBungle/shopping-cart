@@ -14,6 +14,10 @@
     cursor: pointer;
   }
   
+  .cart-toggle:hover {
+    background-color: blue;
+    color: white;
+  }
   .cart-items-container {
     position: absolute;
     top: 100%;
@@ -64,6 +68,12 @@
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: blue;
+    color: #fffcfc;
   }
   
   

@@ -47,6 +47,7 @@ function ShoppingCart() {
         </div>
       )}
       <button onClick={() => handleAddItem({ name: 'Product', price: 10 })} className="add-to-cart-btn">Add to Cart</button>
+      <button onClick={() => handleAddItem({ name: 'Product2', price: 20 })} className="add-to-cart-btn">Add to Cart</button>
     </div>
   );
 }
