@@ -1,12 +1,69 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.cart-container {
+    position: relative;
+  }
+  
+  .cart-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-items-container {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .cart-items-container p {
+    margin-top: 0;
+  }
+  
+  .cart-items-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-total-price {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
